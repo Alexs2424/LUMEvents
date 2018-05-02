@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		474BD3F293D22A7C0DCE396A /* Pods_LUMEventsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5513468C92AF4754176D5EF9 /* Pods_LUMEventsTests.framework */; };
+		5BD88DB75BC55C8F164988B8 /* Pods_LUMEventsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF2378241F53273D99F31C0 /* Pods_LUMEventsUITests.framework */; };
+		8E4A9ABE5916BF64C220A1EC /* Pods_LUMEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323F895B0A7ECBBFC7D4A23 /* Pods_LUMEvents.framework */; };
+		FA652838209A337900470143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA652837209A337900470143 /* AppDelegate.swift */; };
+		FA65283A209A337900470143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA652839209A337900470143 /* ViewController.swift */; };
+		FA65283D209A337900470143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA65283B209A337900470143 /* Main.storyboard */; };
+		FA65283F209A337B00470143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA65283E209A337B00470143 /* Assets.xcassets */; };
+		FA652842209A337B00470143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA652840209A337B00470143 /* LaunchScreen.storyboard */; };
+		FA65284D209A337B00470143 /* LUMEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65284C209A337B00470143 /* LUMEventsTests.swift */; };
+		FA652858209A337B00470143 /* LUMEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA652857209A337B00470143 /* LUMEventsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA652849209A337B00470143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA65282C209A337800470143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA652833209A337800470143;
+			remoteInfo = LUMEvents;
+		};
+		FA652854209A337B00470143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA65282C209A337800470143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA652833209A337800470143;
+			remoteInfo = LUMEvents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5513468C92AF4754176D5EF9 /* Pods_LUMEventsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUMEventsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		579F1E1FF36D32DFE2DCF240 /* Pods-LUMEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUMEvents.release.xcconfig"; path = "Pods/Target Support Files/Pods-LUMEvents/Pods-LUMEvents.release.xcconfig"; sourceTree = "<group>"; };
+		5DF2378241F53273D99F31C0 /* Pods_LUMEventsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUMEventsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7323F895B0A7ECBBFC7D4A23 /* Pods_LUMEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUMEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D0D0BD550D0CF8FCF86718 /* Pods-LUMEventsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUMEventsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LUMEventsUITests/Pods-LUMEventsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3444CF3C28D6D93CCB08F90 /* Pods-LUMEventsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUMEventsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LUMEventsTests/Pods-LUMEventsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E275B15F5E778B7B0182C1AC /* Pods-LUMEventsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUMEventsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LUMEventsUITests/Pods-LUMEventsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F99CB95AFE6A686B6EA9211E /* Pods-LUMEventsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUMEventsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LUMEventsTests/Pods-LUMEventsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA652834209A337800470143 /* LUMEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUMEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA652837209A337900470143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA652839209A337900470143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA65283C209A337900470143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA65283E209A337B00470143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA652841209A337B00470143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA652843209A337B00470143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA652848209A337B00470143 /* LUMEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LUMEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA65284C209A337B00470143 /* LUMEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUMEventsTests.swift; sourceTree = "<group>"; };
+		FA65284E209A337B00470143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA652853209A337B00470143 /* LUMEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LUMEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA652857209A337B00470143 /* LUMEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUMEventsUITests.swift; sourceTree = "<group>"; };
+		FA652859209A337B00470143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9D4C3F06AA19D6F9015870 /* Pods-LUMEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUMEvents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LUMEvents/Pods-LUMEvents.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA652831209A337800470143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4A9ABE5916BF64C220A1EC /* Pods_LUMEvents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA652845209A337B00470143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BD3F293D22A7C0DCE396A /* Pods_LUMEventsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA652850209A337B00470143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD88DB75BC55C8F164988B8 /* Pods_LUMEventsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F5F9731C4327F9AA0F85B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7323F895B0A7ECBBFC7D4A23 /* Pods_LUMEvents.framework */,
+				5513468C92AF4754176D5EF9 /* Pods_LUMEventsTests.framework */,
+				5DF2378241F53273D99F31C0 /* Pods_LUMEventsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98DF3B1570BE141CA8D15DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D4C3F06AA19D6F9015870 /* Pods-LUMEvents.debug.xcconfig */,
+				579F1E1FF36D32DFE2DCF240 /* Pods-LUMEvents.release.xcconfig */,
+				B3444CF3C28D6D93CCB08F90 /* Pods-LUMEventsTests.debug.xcconfig */,
+				F99CB95AFE6A686B6EA9211E /* Pods-LUMEventsTests.release.xcconfig */,
+				88D0D0BD550D0CF8FCF86718 /* Pods-LUMEventsUITests.debug.xcconfig */,
+				E275B15F5E778B7B0182C1AC /* Pods-LUMEventsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA65282B209A337800470143 = {
+			isa = PBXGroup;
+			children = (
+				FA652836209A337900470143 /* LUMEvents */,
+				FA65284B209A337B00470143 /* LUMEventsTests */,
+				FA652856209A337B00470143 /* LUMEventsUITests */,
+				FA652835209A337800470143 /* Products */,
+				D98DF3B1570BE141CA8D15DD /* Pods */,
+				84F5F9731C4327F9AA0F85B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA652835209A337800470143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA652834209A337800470143 /* LUMEvents.app */,
+				FA652848209A337B00470143 /* LUMEventsTests.xctest */,
+				FA652853209A337B00470143 /* LUMEventsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA652836209A337900470143 /* LUMEvents */ = {
+			isa = PBXGroup;
+			children = (
+				FA652837209A337900470143 /* AppDelegate.swift */,
+				FA652839209A337900470143 /* ViewController.swift */,
+				FA65283B209A337900470143 /* Main.storyboard */,
+				FA65283E209A337B00470143 /* Assets.xcassets */,
+				FA652840209A337B00470143 /* LaunchScreen.storyboard */,
+				FA652843209A337B00470143 /* Info.plist */,
+			);
+			path = LUMEvents;
+			sourceTree = "<group>";
+		};
+		FA65284B209A337B00470143 /* LUMEventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA65284C209A337B00470143 /* LUMEventsTests.swift */,
+				FA65284E209A337B00470143 /* Info.plist */,
+			);
+			path = LUMEventsTests;
+			sourceTree = "<group>";
+		};
+		FA652856209A337B00470143 /* LUMEventsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA652857209A337B00470143 /* LUMEventsUITests.swift */,
+				FA652859209A337B00470143 /* Info.plist */,
+			);
+			path = LUMEventsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA652833209A337800470143 /* LUMEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA65285C209A337B00470143 /* Build configuration list for PBXNativeTarget "LUMEvents" */;
+			buildPhases = (
+				93B2C72C24ABDC9629318117 /* [CP] Check Pods Manifest.lock */,
+				FA652830209A337800470143 /* Sources */,
+				FA652831209A337800470143 /* Frameworks */,
+				FA652832209A337800470143 /* Resources */,
+				B24FCC616813307EB783971B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUMEvents;
+			productName = LUMEvents;
+			productReference = FA652834209A337800470143 /* LUMEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA652847209A337B00470143 /* LUMEventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA65285F209A337B00470143 /* Build configuration list for PBXNativeTarget "LUMEventsTests" */;
+			buildPhases = (
+				4DB04849A05F75086067679C /* [CP] Check Pods Manifest.lock */,
+				FA652844209A337B00470143 /* Sources */,
+				FA652845209A337B00470143 /* Frameworks */,
+				FA652846209A337B00470143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA65284A209A337B00470143 /* PBXTargetDependency */,
+			);
+			name = LUMEventsTests;
+			productName = LUMEventsTests;
+			productReference = FA652848209A337B00470143 /* LUMEventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA652852209A337B00470143 /* LUMEventsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA652862209A337B00470143 /* Build configuration list for PBXNativeTarget "LUMEventsUITests" */;
+			buildPhases = (
+				0BDCD2292F8CD55888B74410 /* [CP] Check Pods Manifest.lock */,
+				FA65284F209A337B00470143 /* Sources */,
+				FA652850209A337B00470143 /* Frameworks */,
+				FA652851209A337B00470143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA652855209A337B00470143 /* PBXTargetDependency */,
+			);
+			name = LUMEventsUITests;
+			productName = LUMEventsUITests;
+			productReference = FA652853209A337B00470143 /* LUMEventsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA65282C209A337800470143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "iInnovate LLC";
+				TargetAttributes = {
+					FA652833209A337800470143 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FA652847209A337B00470143 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FA652833209A337800470143;
+					};
+					FA652852209A337B00470143 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FA652833209A337800470143;
+					};
+				};
+			};
+			buildConfigurationList = FA65282F209A337800470143 /* Build configuration list for PBXProject "LUMEvents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA65282B209A337800470143;
+			productRefGroup = FA652835209A337800470143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA652833209A337800470143 /* LUMEvents */,
+				FA652847209A337B00470143 /* LUMEventsTests */,
+				FA652852209A337B00470143 /* LUMEventsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA652832209A337800470143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA652842209A337B00470143 /* LaunchScreen.storyboard in Resources */,
+				FA65283F209A337B00470143 /* Assets.xcassets in Resources */,
+				FA65283D209A337900470143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA652846209A337B00470143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA652851209A337B00470143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BDCD2292F8CD55888B74410 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LUMEventsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB04849A05F75086067679C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LUMEventsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B2C72C24ABDC9629318117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LUMEvents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24FCC616813307EB783971B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LUMEvents/Pods-LUMEvents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LUMEvents/Pods-LUMEvents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA652830209A337800470143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA65283A209A337900470143 /* ViewController.swift in Sources */,
+				FA652838209A337900470143 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA652844209A337B00470143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA65284D209A337B00470143 /* LUMEventsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA65284F209A337B00470143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA652858209A337B00470143 /* LUMEventsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA65284A209A337B00470143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA652833209A337800470143 /* LUMEvents */;
+			targetProxy = FA652849209A337B00470143 /* PBXContainerItemProxy */;
+		};
+		FA652855209A337B00470143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA652833209A337800470143 /* LUMEvents */;
+			targetProxy = FA652854209A337B00470143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA65283B209A337900470143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA65283C209A337900470143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA652840209A337B00470143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA652841209A337B00470143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA65285A209A337B00470143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA65285B209A337B00470143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA65285D209A337B00470143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9D4C3F06AA19D6F9015870 /* Pods-LUMEvents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ES66X8FF8;
+				INFOPLIST_FILE = LUMEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatellc.LUMEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA65285E209A337B00470143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579F1E1FF36D32DFE2DCF240 /* Pods-LUMEvents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ES66X8FF8;
+				INFOPLIST_FILE = LUMEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatellc.LUMEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA652860209A337B00470143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3444CF3C28D6D93CCB08F90 /* Pods-LUMEventsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ES66X8FF8;
+				INFOPLIST_FILE = LUMEventsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatellc.LUMEventsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LUMEvents.app/LUMEvents";
+			};
+			name = Debug;
+		};
+		FA652861209A337B00470143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99CB95AFE6A686B6EA9211E /* Pods-LUMEventsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ES66X8FF8;
+				INFOPLIST_FILE = LUMEventsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatellc.LUMEventsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LUMEvents.app/LUMEvents";
+			};
+			name = Release;
+		};
+		FA652863209A337B00470143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D0D0BD550D0CF8FCF86718 /* Pods-LUMEventsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ES66X8FF8;
+				INFOPLIST_FILE = LUMEventsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatellc.LUMEventsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LUMEvents;
+			};
+			name = Debug;
+		};
+		FA652864209A337B00470143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E275B15F5E778B7B0182C1AC /* Pods-LUMEventsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ES66X8FF8;
+				INFOPLIST_FILE = LUMEventsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovatellc.LUMEventsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LUMEvents;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA65282F209A337800470143 /* Build configuration list for PBXProject "LUMEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA65285A209A337B00470143 /* Debug */,
+				FA65285B209A337B00470143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA65285C209A337B00470143 /* Build configuration list for PBXNativeTarget "LUMEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA65285D209A337B00470143 /* Debug */,
+				FA65285E209A337B00470143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA65285F209A337B00470143 /* Build configuration list for PBXNativeTarget "LUMEventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA652860209A337B00470143 /* Debug */,
+				FA652861209A337B00470143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA652862209A337B00470143 /* Build configuration list for PBXNativeTarget "LUMEventsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA652863209A337B00470143 /* Debug */,
+				FA652864209A337B00470143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA65282C209A337800470143 /* Project object */;
+}
